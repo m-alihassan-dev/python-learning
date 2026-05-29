@@ -2,52 +2,132 @@
 
 A comprehensive collection of Python programs and exercises covering fundamental to advanced concepts. This repository is designed for learning Python programming through practical examples and hands-on coding.
 
-## 📚 Repository Contents
+## 📚 Repository Structure
 
-### Core Concepts
-- **variables.py** - Variable declaration and assignment
-- **operators.py** - Arithmetic, assignment, and bitwise operators
-- **comparision_operators.py** - Comparison operators and conditions
-- **logical_operators.py** - AND, OR, NOT logical operations
-- **input_output.py** - Reading input and printing output
+```
+python-learning/
+├── 01_basics/                      # Core Python fundamentals
+│   ├── variables.py
+│   ├── operators.py
+│   ├── comparision_operators.py
+│   ├── logical_operators.py
+│   ├── input_output.py
+│   ├── explicit_typecasting.py
+│   └── implicit_typecasting.py
+│
+├── 02_control_flow/                # Conditional statements and flow control
+│   ├── conditions.py
+│   └── if_elif_else.py
+│
+├── 03_strings/                     # String operations and manipulation
+│   ├── string_indexing.py
+│   ├── string_slicing.py
+│   ├── string_interpolation.py
+│   ├── string_reverse.py
+│   └── string_loop.py
+│
+├── 04_data_structures/             # Lists, Dictionaries, Sets, Comprehensions
+│   ├── list_positive_negative.py
+│   ├── dictionary.py
+│   ├── dictionary_menu_program.py
+│   ├── set_operations.py
+│   ├── set_add_remove.py
+│   └── comprehensions.py
+│
+├── 05_functions/                   # Function definitions, lambdas, decorators
+│   ├── function.py
+│   ├── lambda_function.py
+│   ├── decorator_functions.py
+│   ├── factorial_function.py
+│   └── factorial.py
+│
+├── 06_oop/                         # Object-Oriented Programming concepts
+│   ├── student_class.py
+│   ├── dunder_methods.py
+│   ├── inheritance.py
+│   ├── multilevel_inheritance.py
+│   ├── multiple_inheritance.py
+│   ├── hierarchical_inheritance.py
+│   ├── hybrid_inheritance.py
+│   ├── polymorphism.py
+│   ├── polymorphism_duck_typing.py
+│   ├── encapsulation.py
+│   └── abstraction.py
+│
+├── 07_algorithms/                  # Practice programs and algorithms
+│   ├── number_guessing_game.py
+│   ├── palindrome.py
+│   ├── reverse_number.py
+│   ├── leap_year.py
+│   ├── multiplication_table.py
+│   ├── frequency_counter.py
+│   ├── count.py
+│   ├── number_validation.py
+│   ├── greater_number.py
+│   ├── ever_or_odd.py
+│   ├── gender_greeting.py
+│   └── number_pattern.py
+│
+├── 08_exception_handling/          # Error handling and exceptions
+│   └── exception_handling.py
+│
+└── 09_advanced/                    # Advanced topics (for future use)
+```
 
-### Control Flow
-- **conditions.py** - If, elif, else statements
-- **if_elif_else.py** - Conditional logic examples
+## 📖 Learning Progression
 
-### Loops & Strings
-- **string_loop.py** - Iterating through strings
-- **string_indexing.py** - String indexing operations
-- **string_slicing.py** - String slicing techniques
-- **string_interpolation.py** - String formatting
-- **string_reverse.py** - String reversal methods
+### 01 - Basics
+Start here! Learn fundamental Python concepts:
+- Variable declaration and types
+- Operators (arithmetic, comparison, logical)
+- Type casting (explicit & implicit)
+- Input/Output operations
 
-### Functions
-- **function.py** - Function definition and calls
-- **lambda_function.py** - Anonymous lambda functions
-- **decorator_functions.py** - Function decorators
-- **factorial_function.py** - Factorial using functions
-- **factorial.py** - Factorial calculations
+### 02 - Control Flow
+Master decision-making in code:
+- If, elif, else statements
+- Conditional logic
 
-### Data Structures
-- **list_positive_negative.py** - Working with lists
-- **dictionary.py** - Dictionary operations
-- **dictionary_menu_program.py** - Dictionary-based menu system
-- **set_operations.py** - Set operations (union, intersection, etc.)
-- **set_add_remove.py** - Adding and removing set elements
-- **comprehensions.py** - List, set, and dictionary comprehensions
+### 03 - Strings
+String manipulation and operations:
+- Indexing and slicing
+- Formatting and interpolation
+- String iteration
 
-### Object-Oriented Programming
-- **student_class.py** - Basic class definition
-- **dunder_methods.py** - Magic/dunder methods (__init__, __str__, etc.)
-- **inheritance.py** - Basic inheritance concepts
-- **multilevel_inheritance.py** - Multi-level inheritance chains
-- **multiple_inheritance.py** - Multiple inheritance
-- **hierarchical_inheritance.py** - Hierarchical inheritance
-- **hybrid_inheritance.py** - Hybrid inheritance patterns
-- **polymorphism.py** - Method overriding and polymorphism
-- **polymorphism_duck_typing.py** - Duck typing in Python
-- **encapsulation.py** - Encapsulation and access modifiers
+### 04 - Data Structures
+Work with Python's built-in collections:
+- Lists and list operations
+- Dictionaries
+- Sets
+- Comprehensions for elegant code
+
+### 05 - Functions
+Learn code organization and reusability:
+- Function definition and calls
+- Lambda (anonymous) functions
+- Decorators for function enhancement
+- Practical examples with recursion
+
+### 06 - Object-Oriented Programming
+Advanced OOP concepts:
+- Class definition and objects
+- Dunder/magic methods
+- Inheritance (all types)
+- Polymorphism
+- Encapsulation
+- Abstraction
+
+### 07 - Algorithms
+Practice with real-world programs:
+- Games (number guessing)
+- String algorithms (palindrome, reverse)
+- Number operations
+- Pattern generation
+
+### 08 - Exception Handling
+Robust error handling:
+- Try/except blocks
+- Error management
 - **abstraction.py** - Abstract classes and abstraction concepts
 
 ### Problem-Solving Programs
